@@ -228,6 +228,96 @@ nav {
 
 
 
+/* below is CSS for the FAQ page */
+
+.young-rafter {
+    float: left;
+    margin: 8px 50px 40px 50px;
+    width: 350px;
+    box-shadow: 5px 5px 10px #39393A;
+}
+
+.safety {
+    float: left;
+    margin: 83px 50px 40px 50px;
+    width: 425px;
+    box-shadow: 5px 5px 10px #39393A;
+}
+
+.lunch {
+    float: left;
+    margin: 83px 50px 40px 50px;
+    box-shadow: 5px 5px 10px #39393A;
+}
+
+.good-time {
+    float: left;
+    margin: 75px 50px 40px 50px;
+    width: 550px;
+    box-shadow: 5px 5px 10px #39393A;
+}
+
+.calendar {
+    float: left;
+    margin: 83px 50px 40px 50px;
+    width: 300px;
+    box-shadow: 5px 5px 10px #39393A;
+}
+
+.msg-faq p, .msg-faq-header p, .msg-faq2 p {
+    text-align: left;
+    color: #39393A;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 8px 50px 0 50px;
+}
+
+.msg-faq h2 {
+    color: #39393A;
+    margin: 75px 50px 15px 0;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.msg-faq-header h2 {
+    color: #39393A;
+    margin: 15px 50px 15px 100px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.msg-faq2 h2 {
+    color: #39393A;
+    margin: 75px 50px 15px 50px;
+    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+ul {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: .8em;
+    margin: 8px 50px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+.msg-end {
+    color: #39393A;
+    margin: 250px 50px -50px 50px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -255,7 +345,7 @@ nav {
     }
     .rivers-card, .camping-card, .rapids-card {
         margin: 50px auto;
-        width: 60%
+        width: 60%;
     }
     #background {
         display: none;
@@ -267,5 +357,23 @@ nav {
     }
     footer {
         margin-top: 25px;
+    }
+/* Below is for the FAQ page */
+    .young-rafter, .safety, .lunch, .good-time, .calendar {
+        float: none;
+        width: 60%;
+        display: block;
+        margin: 75px auto 0 auto;
+    }
+    .msg-faq-header h2, .msg-faq h2{
+        margin: 25px 50px 15px 50px;
+        text-align: center;
+    }
+    .msg-faq2 h2{
+        margin: 75px 50px 15px 50px;
+        text-align: center;
+    }
+    .msg-end {
+        margin: 100px 50px 75px 50px;
     }
 }
