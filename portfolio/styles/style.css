@@ -71,7 +71,7 @@ hr {
     height: 3px;
 }
 
-section p {
+.intro {
     margin: 0 100px 75px 100px;
     text-align: justify;
     font-size: 25px;
